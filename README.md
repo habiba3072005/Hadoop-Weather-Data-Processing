@@ -1,8 +1,8 @@
-# 🌦️ Weather Data Processing using Hadoop Ecosystem
+#  Weather Data Processing using Hadoop Ecosystem
 
 A Big Data project that processes weather datasets using the Hadoop ecosystem. The project demonstrates a complete data pipeline from data storage and cleaning to distributed processing and visualization.
 
-## 📌 Project Overview
+##  Project Overview
 
 This project aims to analyze weather datasets using distributed computing technologies. The workflow includes:
 
@@ -15,7 +15,7 @@ This project aims to analyze weather datasets using distributed computing techno
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Docker
 - Hadoop
@@ -27,7 +27,7 @@ This project aims to analyze weather datasets using distributed computing techno
 
 ---
 
-## 📂 Project Workflow
+##  Project Workflow
 
 ### 1. Data Collection & Preprocessing
 - Collect weather datasets.
@@ -63,59 +63,7 @@ This project aims to analyze weather datasets using distributed computing techno
 
 ---
 
-## 📁 Project Structure
-
-```
-├── Dockerfile
-├── datasets/
-├── hive/
-│   └── queries.sql
-├── mapreduce/
-│   ├── Mapper.java
-│   ├── Reducer.java
-│   └── Driver.java
-├── visualization/
-│   └── analysis.py
-├── report/
-│   └── Final_Report.pdf
-└── README.md
-```
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-2. Build the Docker image
-
-```bash
-docker build -t weather-project .
-```
-
-3. Run the Docker container
-
-```bash
-docker run -it weather-project
-```
-
-4. Start Hadoop services.
-
-5. Upload datasets to HDFS.
-
-6. Execute Hive queries.
-
-7. Compile and run the MapReduce job.
-
-8. Run the Python visualization script.
-
----
-
-## 📊 Output
+##  Output
 
 The MapReduce job calculates:
 
@@ -125,9 +73,9 @@ The processed results are then visualized to identify weather trends.
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
-- Habiba Yehia Shaaban
+- Habiba Yahia Shaaban
 - Habiba Hamdy Ali
 - Loubid Emad Mohamed
 - Marwan Mohamed Zein
@@ -136,7 +84,7 @@ The processed results are then visualized to identify weather trends.
 
 ---
 
-## 🎓 Course
+##  Course
 
 **Distributed Processing**  
 Faculty of Computer and Data Science  
@@ -145,6 +93,6 @@ Alexandria University
 
 ---
 
-## 📄 License
+##  License
 
 This project was developed for educational purposes as part of the Distributed Processing course.
